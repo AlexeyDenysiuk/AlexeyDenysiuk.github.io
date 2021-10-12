@@ -67,8 +67,10 @@ flex-direction: column;
 
 .block_right{
     display: flex;
+    width: 500%;
+    flex-direction: column;
     align-items: center;
-    width: 500%
+    justify-content: space-evenly;
 
 }
 .second_task{
