@@ -71,6 +71,9 @@ flex-direction: column;
     width: 500%
 
 }
+.second_task{
+    padding: 20px
+}
 
 .block_down {
     display: flex;
