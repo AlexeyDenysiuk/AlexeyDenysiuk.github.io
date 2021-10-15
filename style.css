@@ -69,7 +69,7 @@ flex-direction: column;
     display: flex;
     width: 500%;
     flex-direction: column;
-    align-items: center;
+    align-items: stretch;
     justify-content: space-evenly;
 
 }
