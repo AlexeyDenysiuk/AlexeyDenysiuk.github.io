@@ -95,7 +95,7 @@ function createForm(form){
         let panel_identifier = form[1].slice(form[1].indexOf("-"), form[1].length);
         form5.id = 'task5-form' + panel_identifier
 
-        let list5 = document.createElement('ul')
+        let list5 = document.createElement('ol')
         list5.id = 'task5-list' + panel_identifier
     
         let br = document.createElement('br')
