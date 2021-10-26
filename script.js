@@ -48,9 +48,9 @@ function check_Cookie(cookie_name) {
         //alert("Do you want delete cookies?") 
         if (confirm('Delete cookies?')) {
             // Save it!
-            //console.log('Thing was saved to the database.');
+            
 
-            var cookie_date = new Date();  // ������� ���� � �����
+            var cookie_date = new Date();  
             cookie_date.setTime(cookie_date.getTime() - 1);
             document.cookie = cookie_name += "=; expires=" + cookie_date.toGMTString();
             document.getElementById("form_task3").style.display = "block";
